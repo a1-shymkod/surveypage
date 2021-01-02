@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Survey Form</title>
+<link rel="stylesheet" href="main.css" >
+<link rel="stylesheet" href="responsive.css">
+</head>
+<main id="main">
+<body>
+<header id="header">
+	<h1 id="title">Survey for freeCode Camp</h1>
+	<p id="description">This survey is being created to help with HTML and CSS practice.</p>
+</header>
+
+<form id="survey-form">
+
+<label for="name-label" id="name-label">Name:</label><br>
+  <input type="text" id="name" name="fname" for="name-label" placeholder="John/Jane Doe" required ><br>
+<label for="email-label" id="email-label">E-Mail:</label><br>
+  <input type="email" id="email" name="fname" for="email-label" placeholder="John@somename.com" required><br>
+ <label for="number-label" id="number-label">Age:</label><br>
+  <input type="number" id="number" name="fname" for="age-label" placeholder="(Optional)" min="18" max="100"><br>
+  <br>
+  
+  <label for="dropdown">Choose the brand of car you have driven most often:</label><br><br>
+
+<select name="cars" id="dropdown">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+  <option value="audi">GM</option>
+  <option value="audi">Ford</option>
+  <option value="audi">Toyota</option>
+  <option value="audi">None of the above.</option>
+</select>
+<br>
+<p>Please select approximate number of trips taken in the above vehicle brand:</p>
+  <input type="radio" id="trips1" name="trips" value="3">
+  <label for="trips1">0 - 3</label><br>
+  <input type="radio" id="trips2" name="trips" value="6">
+  <label for="trips2">3 - 6</label><br>  
+  <input type="radio" id="trips3" name="trips" value="100">
+  <label for="trips3">6 or more</label><br>
+  <input type="radio" id="trips4" name="trips" value="0">
+  <label for="trips4">Not Applicable</label><br>  
+  <p>Please select the different class of vehicles you have operated.</p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">Bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Boat">
+<label for="vehicle2">Boat</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="AIrcraft">
+<label for="vehicle3">Aircraft</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle4" value="Skateboard">
+<label for="vehicle3">Skateboard</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle5" value="Other">
+<label for="vehicle3">Other</label><br>
+  
+  <p><label for="textcommnet">Please enter your comments below:</label></p>
+<textarea id="textcomment" name="textcomment" rows="4" cols="50">
+Please enter your comments here.
+ </textarea><br><br>
+ <input type="submit" id="submit" value="Submit">
+
+
+
+
+</form>
+
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
