@@ -1,0 +1,25 @@
+
+@media  (max-width: 460px){
+#main{
+margin:0;
+}
+}
+
+#main{
+color:orange;
+background-color:black;
+}
+
+
+#header{
+	display:block;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+
+#survey-form{
+	display:block;
+	margin-left:50px;
+	margin-right:50px;
+}
